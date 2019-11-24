@@ -12,12 +12,13 @@ namespace pierwsz
         {
             while(true)
             {
-                Console.WriteLine("1. +");
-                Console.WriteLine("2. -");
-                Console.WriteLine("3. *");
+                int menuOption = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("1. Dodawanie");
                 Console.WriteLine("4. /");
                 Console.WriteLine("5. Exit");
-                int menuOption = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("2. Odejmowanie");
+                Console.WriteLine("3. *");
+                int a = Convert.ToInt32(Console.ReadLine());
             }
         }
     }
