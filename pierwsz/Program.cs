@@ -22,7 +22,7 @@ namespace pierwsz
                 int b = Convert.ToInt32(Console.ReadLine());
                 if (menuOption == 5)
                     break;
-                if(menuOption ==1)
+                if (menuOption == 1)
                 {
                     Console.WriteLine(a + b);
                 }
