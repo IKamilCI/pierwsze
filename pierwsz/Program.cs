@@ -10,11 +10,15 @@ namespace pierwsz
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("+");
-            Console.WriteLine("-");
-            Console.WriteLine("*");
-            Console.WriteLine("/");
-            Console.WriteLine("Exit");
+            while(true)
+            {
+                Console.WriteLine("1. +");
+                Console.WriteLine("2. -");
+                Console.WriteLine("3. *");
+                Console.WriteLine("4. /");
+                Console.WriteLine("5. Exit");
+                int menuOption = Convert.ToInt32(Console.ReadLine());
+            }
         }
     }
 }
